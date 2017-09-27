@@ -1,0 +1,25 @@
+{
+  "name": "redhedded1/recaptcha",
+  "description": "Recaptcha V2 for OctoberCMS",
+  "homepage": "https://larryaball.net",
+  "keywords": ["octobercms", "recaptcha"],
+  "authors": [
+    {
+      "name": "Larry A. Ball",
+      "email": "larry@larryaball.net"
+    }
+  ],
+  "require": {
+    "greggilbert/recaptcha": "dev-master",
+    "composer/installers": "~1.0"
+  },
+  "scripts": {
+    "build": [
+      "@composer install --no-progress --no-interaction --no-suggest",
+      "@test"
+    ],
+    "test": [
+        "composer dumpautoload"
+    ]
+  }
+}

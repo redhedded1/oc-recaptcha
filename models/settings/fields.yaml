@@ -1,0 +1,7 @@
+fields:
+    site_key:
+        label: Site Key
+        description: reCAPTCHA public key
+    secret_key:
+        label: Secret Key
+        description: reCAPTCHA private key
